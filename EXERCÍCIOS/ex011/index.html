@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente diminua e aumente o tamanho do seu
+        navegador</p>
+
+    <picture>
+
+        <source media="(max-width: 750px)" srcset="Imagens/foto.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/fotom.png" type="image/png">
+        <img src="Imagens/fotog.png" alt="IMagem flexível">
+    </picture> -->
+
+    <h1>Reproduzindo Áudio</h1>
+
+    <!-- <audio src="midia/(Put On Your) Dancing Pants - Reed Mathis.mp3"  controls autoplay></audio> -->
+
+    <!--HP3 WAV OGG-->
+    <!--Tentar evitar wav , pois é pesado-->
+    
+    <h1>Outra maneira de reproduzir áudio</h1>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="midia/(Put On Your) Dancing Pants - Reed Mathis.mp3" type="audio/mpeg">
+        <source src="midia/(Put On Your) Dancing Pants - Reed Mathis.mp3" type="audio/wav">
+        <source src="midia/(Put On Your) Dancing Pants - Reed Mathis.mp3" type="audio/ogg">
+    </audio>
+
+    <p>infelizmente seu navegador não pode reproduzir áudio, caso não dê certo uma das 3 maneiras acima</p>
+    <a href="midia/">Clique aqui para reproduzir seu áudio</a>
+
+
+</body>
+
+</html>
